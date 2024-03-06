@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    gap: 15px;
+  }
+  .start-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .cell {
+    background-color: gray;
+  }
