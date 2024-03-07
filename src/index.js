@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import MemoryGame from './memory-game/memoryGame';
-import Accordian from './accordian/accordian';
+import Accordion from './accordion/accordion';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MemoryGame />
-    <Accordian/>
+    <Accordion/>
   </React.StrictMode>
 );
 

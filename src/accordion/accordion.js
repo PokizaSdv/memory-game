@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useState } from "react";
 
-const Accordian = () => {
+const Accordion = () => {
     const [show, setShow] = useState(false);
 
     const handleOnClick = () => {
@@ -9,9 +9,9 @@ const Accordian = () => {
     };
 
     return (
-        <div className="accordian">
-            <div className="accordian__header">
-                <h2>Accordian</h2>
+        <div className="accordion">
+            <div className="accordion__header">
+                <h2>Accordion</h2>
                 <span
                     className={`chevron-${show ? "up" : "down"}`}
                     onClick={handleOnClick}
@@ -20,7 +20,7 @@ const Accordian = () => {
                 </span>
             </div>
             {show ? (
-                <div className="accordian__body">
+                <div className="accordion__body">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Veniam ratione alias ducimus dolorum eveniet
@@ -34,4 +34,4 @@ const Accordian = () => {
     );
 };
 
-export default Accordian;
+export default Accordion;
