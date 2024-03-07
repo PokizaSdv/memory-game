@@ -1,0 +1,20 @@
+.accordian {
+    font-family: sans-serif;
+    border: 1px solid gray;
+}
+
+.accordian__header {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.chevron-up {
+    transform: rotate(90deg);
+}
+
+.accordian__body {
+    padding: 15px;
+}

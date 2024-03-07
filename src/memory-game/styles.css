@@ -1,6 +1,7 @@
-* {
+.content {
     font-family: sans-serif;
     text-align: center;
+    margin-bottom: 200px;
   }
   
   .board {
