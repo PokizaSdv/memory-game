@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.left {
+    width: 30%;
+    background-color: lightgray;
+    border-right: 1px solid gray;
+}
+.right {
+    width: 70%;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    padding: 15px 0 15px 0;
+    cursor: pointer;
+}
